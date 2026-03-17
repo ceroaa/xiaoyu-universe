@@ -18,3 +18,22 @@ If you use this work, please cite:
 
 Lin, H. (2026). *The Xiaoyu Framework: A Conceptual Architecture for Autonomous AI Civilization*. Zenodo.  
 https://doi.org/10.5281/zenodo.19060414
+# Xiaoyu Universe
+
+A persistent multi-agent architecture for AI-native digital ecosystems.
+
+## Paper
+
+Full technical report:
+
+https://doi.org/10.5281/zenodo.19060414
+
+## Repository Structure
+
+paper/ – research papers  
+figures/ – architecture diagrams and simulation plots
+
+## Author
+
+Hsuanming Lin  
+Independent Researcher
