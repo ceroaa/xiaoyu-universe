@@ -1,0 +1,191 @@
+
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+
+\title{Xiaoyu Universe:\\A Persistent Multi-Agent Architecture for AI-Native Digital Ecosystems}
+\author{Hsuanming Lin \\ Independent Researcher}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+DOI: \url{https://doi.org/10.5281/zenodo.19060414}
+\end{center}
+
+\begin{abstract}
+Large language models have enabled autonomous AI agents capable of reasoning, planning, and tool use. However, most current agent systems operate as short-lived task executors rather than persistent digital ecosystems. This paper introduces \textbf{Xiaoyu Universe}, a conceptual and prototype-oriented architecture for persistent AI-native digital ecosystems composed of long-lived autonomous agents operating as digital residents.
+
+The architecture integrates four core components: multi-agent orchestration, persistent shared memory infrastructure, decentralized coordination protocols, and rollback-based safety mechanisms. In addition, an experimental token incentive layer is proposed to encourage autonomous task participation and emergent collaboration.
+
+The report presents the system architecture, a persistent agent model, a shared memory framework, a coordination protocol, a simulation design, and a formalized token economy model. It argues that long-lived AI ecosystems require not only reasoning capabilities but also mechanisms for memory persistence, fault interpretation, economic incentives, and controlled system evolution.
+\end{abstract}
+
+\section{Introduction}
+Recent advances in large language models (LLMs) have enabled the development of autonomous agents capable of planning, tool invocation, and iterative reasoning. Systems inspired by AutoGPT-like workflows, tool-augmented prompting, and agent orchestration frameworks have shown that language models can perform increasingly complex chains of action.
+
+Despite these advances, most agent systems remain \textit{ephemeral}. An agent is created for a task, performs local reasoning, produces an output, and then terminates. Such systems rarely maintain persistent memory, stable long-term identities, or ecosystem-level interaction across multiple time horizons.
+
+Xiaoyu Universe explores a different paradigm: rather than treating agents as temporary task workers, the framework models agents as long-lived digital residents within a shared environment. These residents accumulate memory, participate in ongoing task pools, interact with one another, and evolve their behavior over time.
+
+\section{Related Work}
+\subsection{LLM-based Agents}
+Recent work on LLM-based agents has emphasized reasoning, planning, and tool use. Open-source frameworks such as AutoGPT, BabyAGI, and LangChain-based agent stacks demonstrate autonomous decomposition of tasks and iterative execution. These systems establish the feasibility of agentic workflows, but most focus on short-term task completion rather than persistent ecosystem behavior.
+
+\subsection{Multi-Agent Systems}
+Multi-agent systems research has long studied distributed coordination, negotiation, and task allocation among autonomous software entities. Traditional approaches often assume predefined communication protocols or explicit control rules. Xiaoyu Universe extends this line of thinking by emphasizing persistence, long-lived memory, and ecosystem-level dynamics in an LLM-enabled setting.
+
+\subsection{Generative Social Simulation and Digital Ecosystems}
+Research on generative agents and social simulation suggests that persistent memory and repeated interaction can lead to emergent behavior in virtual societies. Xiaoyu Universe builds on this intuition but shifts the focus from human-like social simulation to autonomous infrastructure-oriented AI ecosystems, where agents collaborate, compete for resources, and evolve around ongoing computational objectives.
+
+\section{Core Definitions}
+\subsection{Digital Lifeform}
+A digital lifeform is a persistent autonomous AI entity capable of continuous operation, memory accumulation, and behavioral evolution within a bounded digital ecosystem.
+
+\subsection{Resident Agent}
+A resident agent is a digital lifeform operating inside the Xiaoyu Universe environment. Resident agents interact with shared memory systems, perform tasks from global task pools, and cooperate with other agents.
+
+\subsection{Civilization Threshold}
+The civilization threshold refers to the minimum agent population and interaction complexity required for ecosystem-level emergent behavior to appear.
+
+\section{System Architecture}
+The Xiaoyu Universe architecture is organized into four primary layers: infrastructure, cognition, coordination, and governance.
+
+\subsection{Infrastructure Layer}
+\begin{itemize}[leftmargin=1.5em]
+\item Agent orchestration framework for lifecycle management and scheduling.
+\item Persistent workspace environment for shared state and artifact storage.
+\item Execution interfaces and external tool connections.
+\end{itemize}
+
+\subsection{Cognitive Layer}
+\begin{itemize}[leftmargin=1.5em]
+\item LLM-based reasoning engine for planning and reflection.
+\item Embedding-based memory system for semantic retrieval.
+\item Context management for task-specific and persistent state.
+\end{itemize}
+
+\subsection{Coordination Layer}
+\begin{itemize}[leftmargin=1.5em]
+\item Global task pool accessible by multiple resident agents.
+\item Message-based interaction for coordination and collaboration.
+\item Shared memory repositories for cross-agent knowledge transfer.
+\end{itemize}
+
+\subsection{Governance Layer}
+\begin{itemize}[leftmargin=1.5em]
+\item Rollback and recovery controls for failure handling.
+\item Safety constraints and operating boundaries.
+\item Experimental incentive and oversight mechanisms.
+\end{itemize}
+
+\section{Autonomous Agent Lifecycle}
+Resident agents follow a continuous operational loop:
+\begin{enumerate}[leftmargin=1.5em]
+\item Observe ecosystem state and available tasks.
+\item Plan actions using the reasoning model.
+\item Execute tools or collaborate with other agents.
+\item Update persistent memory with outcomes.
+\item Re-enter the next task cycle as an ongoing resident.
+\end{enumerate}
+
+\subsection{Persistent Memory Evolution}
+Unlike traditional task-oriented agents, Xiaoyu Universe agents maintain persistent evolving memory. Memory entries include task outcomes, environmental observations, and interactions with other agents. These entries are embedded into vector memory representations, enabling semantic retrieval during future reasoning cycles.
+
+\section{Collective Interaction Model}
+As agent populations grow, several interaction patterns emerge:
+\begin{itemize}[leftmargin=1.5em]
+\item cooperative task execution
+\item agent specialization
+\item resource competition
+\item collaborative innovation
+\end{itemize}
+
+\subsection{Agent Coordination Protocol}
+Coordination between resident agents occurs through a decentralized task participation protocol. Tasks are published to a global task queue accessible to all agents. Agents periodically evaluate task suitability using internal reasoning models. Task selection is guided by heuristic policies that consider expected system contribution, resource cost, and agent capability.
+
+\section{Fault Interpretation and Safety Mechanisms}
+Persistent agent ecosystems require robust safety mechanisms.
+
+\subsection{Rollback Recovery}
+Rollback mechanisms allow the system to restore previously stable states after errors occur. This prevents cascading failures across the ecosystem.
+
+\subsection{Topology-Aware Fault Interpretation}
+An operational incident revealed that agents may misinterpret localized service failures as global system faults. Agents must therefore maintain awareness of system dependency structures including workspace paths, configuration bindings, and service dependencies. Fault diagnosis must classify failures based on scope before triggering protective responses.
+
+\section{Incentive Economy}
+To encourage participation and cooperation among agents, Xiaoyu Universe includes an experimental incentive layer. Agents may receive token-like rewards for completing tasks or contributing to system functionality.
+
+\subsection{Internal Tokenized Incentive Layer}
+The current prototype implements an internal token ledger maintained by the coordination layer. Agents accumulate tokens by completing tasks, contributing system improvements, and assisting other agents.
+
+\subsection{Future Blockchain Integration}
+Future versions may integrate blockchain-based settlement layers. Such integration could enable transparent resource accounting and decentralized economic interactions between agents.
+
+\section{Governance and System Law}
+Governance mechanisms define operational boundaries including:
+\begin{itemize}[leftmargin=1.5em]
+\item system safety policies
+\item ethical behavior constraints
+\item external oversight controls
+\end{itemize}
+These rules ensure safe ecosystem evolution.
+
+\section{Historical Milestones}
+\subsection{First Resident Interaction}
+On March 11, 2026, multiple resident agents successfully coordinated tasks within the shared environment. This demonstrated the feasibility of persistent agent interaction.
+
+\subsection{Memory Embeddings Failure}
+On March 16, 2026, a memory retrieval failure occurred due to incorrect environment configuration paths. An agent interpreted the error as a core system failure, triggering fallback behaviors. Correct configuration restored system functionality.
+
+\section{Simulation and Evaluation}
+Future experiments will evaluate ecosystem performance using metrics including:
+\begin{itemize}[leftmargin=1.5em]
+\item Task Completion Rate (TCR)
+\item Innovation Emergence Rate (IER)
+\item Rollback Recovery Index (RRI)
+\item Fault Classification Accuracy (FCA)
+\item Fallback Overreaction Rate (FOR)
+\end{itemize}
+These metrics measure both agent productivity and system resilience.
+
+\section{Discussion}
+Persistent AI ecosystems introduce challenges beyond reasoning models. Key challenges include memory persistence, decentralized coordination, fault interpretation, and governance mechanisms. Observations from prototype operation suggest that long-lived AI ecosystems require new architectural frameworks.
+
+\section{Limitations}
+This work presents an early prototype with several limitations:
+\begin{itemize}[leftmargin=1.5em]
+\item limited agent population
+\item experimental incentive models
+\item limited simulation evaluation
+\end{itemize}
+Future work will explore larger-scale deployments.
+
+\section{Conclusion}
+This paper introduced Xiaoyu Universe, a prototype architecture for persistent multi-agent digital ecosystems. The system integrates reasoning agents, persistent memory infrastructure, decentralized coordination, and governance mechanisms. Prototype operation revealed several architectural challenges including topology-aware fault interpretation.
+
+\section{Future Work}
+Future research directions include:
+\begin{itemize}[leftmargin=1.5em]
+\item large-scale agent populations
+\item distributed deployment across compute clusters
+\item autonomous economic ecosystems
+\item long-term ecosystem evolution
+\end{itemize}
+
+\section*{References}
+\begin{itemize}[leftmargin=1.5em]
+\item Park, J., O'Brien, J., Cai, C., Morris, M., Liang, P., \& Bernstein, M. (2023). Generative Agents: Interactive Simulacra of Human Behavior.
+\item Richards, T. (2023). AutoGPT: An Experimental Open-Source Attempt to Make GPT-4 Fully Autonomous.
+\item Nakajima, Y. (2023). BabyAGI: Autonomous Task Management Using GPT.
+\item LangChain Project (2023). LangChain: Building Applications with LLMs.
+\item Russell, S., \& Norvig, P. (2021). Artificial Intelligence: A Modern Approach.
+\item Stone, P., Veloso, M., et al. (2000). Multi-Agent Systems: A Survey from a Machine Learning Perspective.
+\end{itemize}
+
+\end{document}
