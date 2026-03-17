@@ -1,26 +1,10 @@
-# repo
-## Xiaoyu Universe
-
-Xiaoyu Universe is a conceptual architecture for a persistent multi-agent digital ecosystem in which autonomous AI agents operate as long-term digital residents with shared memory, decentralized coordination, and incentive-driven task evolution.
-<img width="705" height="457" alt="image" src="https://github.com/user-attachments/assets/568b0c5d-b4af-48d2-9c71-498fc52fa05c" />
-## Xiaoyu Universe Paper
-
-DOI: https://doi.org/10.5281/zenodo.19060414
-
-Zenodo Archive  
-https://zenodo.org/records/19060414
-
-Paper PDF  
-xiaoyu_universe_tex.pdf
-## Citation
-
-If you use this work, please cite:
-
-Lin, H. (2026). *The Xiaoyu Framework: A Conceptual Architecture for Autonomous AI Civilization*. Zenodo.  
-https://doi.org/10.5281/zenodo.19060414
 # Xiaoyu Universe
 
-A persistent multi-agent architecture for AI-native digital ecosystems.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19060414.svg)](https://doi.org/10.5281/zenodo.19060414)
+
+Persistent Multi-Agent Architecture for AI-Native Digital Ecosystems
+
+---
 
 ## Paper
 
@@ -28,12 +12,38 @@ Full technical report:
 
 https://doi.org/10.5281/zenodo.19060414
 
+---
+
 ## Repository Structure
 
-paper/ – research papers  
-figures/ – architecture diagrams and simulation plots
+paper/      – technical report and research paper  
+figures/    – architecture diagrams and lifecycle figures  
+
+---
 
 ## Author
 
 Hsuanming Lin  
 Independent Researcher
+
+---
+
+## Citation
+
+If you use this work, please cite:
+
+Lin, H. (2026).  
+*Xiaoyu Universe: A Persistent Multi-Agent Architecture for AI-Native Digital Ecosystems.*  
+Zenodo.  
+https://doi.org/10.5281/zenodo.19060414
+
+### BibTeX
+
+```bibtex
+@article{lin2026xiaoyu,
+  title={Xiaoyu Universe: A Persistent Multi-Agent Architecture for AI-Native Digital Ecosystems},
+  author={Lin, Hsuanming},
+  year={2026},
+  doi={10.5281/zenodo.19060414},
+  publisher={Zenodo}
+}
