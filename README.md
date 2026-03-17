@@ -8,16 +8,19 @@ Persistent Multi-Agent Architecture for AI-Native Digital Ecosystems
 
 ## Paper
 
-Full technical report:
+Technical Report:
 
-https://doi.org/10.5281/zenodo.19060414
+- PDF: `paper/xiaoyu_universe_technical_report.pdf`
+- DOI: https://doi.org/10.5281/zenodo.19060414
 
 ---
 
 ## Repository Structure
 
-paper/      – technical report and research paper  
-figures/    – architecture diagrams and lifecycle figures  
+```
+paper/      – technical report and research paper
+figures/    – architecture diagrams and lifecycle figures
+```
 
 ---
 
@@ -46,4 +49,6 @@ https://doi.org/10.5281/zenodo.19060414
   year={2026},
   doi={10.5281/zenodo.19060414},
   publisher={Zenodo}
+}
+```
 }
