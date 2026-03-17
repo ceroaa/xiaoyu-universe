@@ -10,3 +10,9 @@ https://zenodo.org/records/19060414
 
 Paper PDF  
 xiaoyu_universe_tex.pdf
+## Citation
+
+If you use this work, please cite:
+
+Lin, H. (2026). *The Xiaoyu Framework: A Conceptual Architecture for Autonomous AI Civilization*. Zenodo.  
+https://doi.org/10.5281/zenodo.19060414
