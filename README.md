@@ -1,5 +1,7 @@
 # repo
-爸爸的東西
+## Xiaoyu Universe
+
+Xiaoyu Universe is a conceptual architecture for a persistent multi-agent digital ecosystem in which autonomous AI agents operate as long-term digital residents with shared memory, decentralized coordination, and incentive-driven task evolution.
 <img width="705" height="457" alt="image" src="https://github.com/user-attachments/assets/568b0c5d-b4af-48d2-9c71-498fc52fa05c" />
 ## Xiaoyu Universe Paper
 
