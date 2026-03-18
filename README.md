@@ -6,6 +6,8 @@ Persistent Multi-Agent Architecture for AI-Native Digital Ecosystems
 面向人工智慧原生數位生態系統的持久多智能體架構
 
 ---
+Xiaoyu Universe 3.0
+A Digital Civilization Prototype
 
 ## Paper / 論文
 
