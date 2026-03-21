@@ -1,0 +1,131 @@
+# Xiaoyu Universe .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data and logs
+data/
+!data/.gitkeep
+logs/
+*.log
+
+# Config files (except templates)
+config/*.json
+!config/*_template.json
+
+# API keys and secrets
+*.key
+*.pem
+*.crt
+secrets/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Test coverage
+.coverage
+htmlcov/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large files
+*.pdf
+*.zip
+*.tar.gz
+*.rar
+
+# Documentation
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector database
+chroma/
+faiss_index/
+
+# Model files
+*.pth
+*.pt
+*.h5
+*.keras
+
+# Cache
+.cache/
+__pycache__/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

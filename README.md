@@ -1,53 +1,145 @@
-# Xiaoyu Universe
+# 🌧️ Xiaoyu Universe  
+### Persistent Multi-Agent System with Hybrid Memory
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19060414.svg)](https://doi.org/10.5281/zenodo.19060414)
 
-Persistent Multi-Agent Architecture for AI-Native Digital Ecosystems  
-面向人工智慧原生數位生態系統的持久多智能體架構
-
----
-Xiaoyu Universe 3.0
-A Digital Civilization Prototype
-
-## Paper / 論文
-
-Technical Report / 技術報告：
-
-- PDF: `paper/xiaoyu_universe_technical_report.pdf`
-- DOI: https://doi.org/10.5281/zenodo.19060414
+> A practical exploration of long-term autonomous AI systems with memory, coordination, and evolution.
 
 ---
 
-## Repository Structure / 儲存庫結構
+## 📌 Overview
 
+Xiaoyu Universe is an experimental multi-agent system designed to support:
 
-paper/ – technical report and research paper
-figures/ – architecture diagrams and lifecycle figures
+- 🧠 Persistent agent identity  
+- 📚 Hybrid memory architecture (vector + structured)  
+- 🔄 Long-term context continuity  
+- ⚙️ Autonomous workflow optimization  
+- 🚀 Deployment-level automation  
 
-
----
-
-## Author / 作者
-
-Hsuanming Lin  
-林宣明  
-Independent Researcher / 獨立研究員
+Unlike traditional short-lived agents, this system focuses on **continuous operation and adaptive evolution over time**.
 
 ---
 
-## Citation / 引用
+## 🧠 Key Concepts
 
-If you use this work, please cite:  
-若您使用此作品，請註明出處：
+### 🔹 Beads Memory Architecture
 
-Lin, H. (2026).  
-*Xiaoyu Universe: A Persistent Multi-Agent Architecture for AI-Native Digital Ecosystems.*  
-Zenodo.  
-https://doi.org/10.5281/zenodo.19060414
+Instead of treating all memory equally:
+
+- Important information is **prioritized**
+- Secondary data is **compressed**
+- Context is **preserved across long interactions**
+
+This enables:
+
+- Long conversation stability  
+- Reduced memory loss  
+- More coherent decision-making  
 
 ---
 
-### BibTeX
+### 🔹 Tool & Workflow Optimization
+
+The system does not only use tools — it improves them:
+
+- Restructures workflows  
+- Simplifies deployment  
+- Reduces user friction  
+
+Example:
+
+> Multi-step setup → One-click deployment
+
+---
+
+## 📄 Paper
+
+📘 Main Paper:  
+👉 [`paper/xiaoyu_universe_technical_report_v2_final.pdf`](paper/xiaoyu_universe_technical_report_v2_final.pdf)
+
+📑 Technical Report:  
+👉 [`paper/xiaoyu_universe_full_technical_report.pdf`](paper/xiaoyu_universe_full_technical_report.pdf)
+
+📝 LaTeX Source:  
+👉 [`paper/xiaoyu_universe_full_technical_report.tex`](paper/xiaoyu_universe_full_technical_report.tex)
+
+---
+
+## ⚙️ Features
+
+- ✅ One-click deployment script  
+- ✅ Tool restructuring & optimization  
+- ✅ Memory layering & compression  
+- ✅ Long-context preservation  
+- ✅ Autonomous task continuation  
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repo
+git clone https://github.com/ceroaa/xiaoyu-universe.git
+
+# Run setup
+cd xiaoyu-universe
+./setup.sh
+```
+
+---
+
+## 📂 Project Structure
+
+```
+xiaoyu-universe/
+│
+├── README.md
+├── paper/              # Research papers and technical reports
+├── figures/            # Architecture diagrams and visualizations
+├── src/               # Source code (under development)
+└── archive/           # Historical versions and archives
+```
+
+---
+
+## 🔬 Research Direction
+
+This project explores:
+
+- Persistent AI systems
+- Memory-aware agents
+- Autonomous system evolution
+- User-centric optimization
+
+---
+
+## 📊 Current Status
+
+🟡 Under active development  
+🟡 Paper under review  
+🟡 System evolving with real-world testing  
+
+---
+
+## ⚠️ Disclaimer
+
+This is an experimental research project.  
+Some components are actively evolving and may change over time.
+
+---
+
+## 👤 Author
+
+**Hsuanming Lin** (林宣明)  
+Independent Researcher  
+GitHub: [ceroaa](https://github.com/ceroaa)
+
+---
+
+## 📚 Citation
+
+If you use this work, please cite:
 
 ```bibtex
 @article{lin2026xiaoyu,
@@ -57,19 +149,38 @@ https://doi.org/10.5281/zenodo.19060414
   doi={10.5281/zenodo.19060414},
   publisher={Zenodo}
 }
+```
 
 ---
 
-# 這樣的好處
+## 🌐 Contribution
 
-GitHub 會顯示：
+Feel free to:
 
-- DOI badge  
-- 中英雙語標題  
-- PDF 入口  
-- Citation  
-- BibTeX  
-
-對 **研究者、搜尋引擎、引用工具** 都友好。
+⭐ Star the project  
+🛠️ Fork and experiment  
+📬 Share feedback  
 
 ---
+
+## 🚀 Vision
+
+Toward AI systems that:
+
+- remember
+- adapt  
+- evolve
+- assist continuously
+
+---
+
+## 📞 Contact
+
+For questions or collaboration:  
+📧 Open an issue on GitHub  
+💬 Start a discussion in the repository
+
+---
+
+*Last updated: March 21, 2026*  
+*Version: Xiaoyu Universe 3.0*
