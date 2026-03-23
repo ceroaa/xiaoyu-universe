@@ -221,7 +221,7 @@ This creates a path toward AI systems that do not merely generate responses, but
 ## Research Assets
 
 ### Main Paper
-[`paper/xiaoyu_universe_technical_report_v2_final.pdf`](paper/xiaoyu_universe_technical_report_v2_final.pdf)
+[`paper/xiaoyu_universe_technical_report_v2_final.pdf`](xiaoyu_universe_technical_report_v3.pdf)
 
 ### Full Technical Report
 [`paper/xiaoyu_universe_full_technical_report.pdf`](paper/xiaoyu_universe_full_technical_report.pdf)
